@@ -24,6 +24,41 @@ console.log("Suraj Kumar :");
 // datatypes in javascript;
 // Primitive Types : Number, String, Boolean, Undefined, Null, BigInt, Symbol
 
+// 1. String
+
+let name = "Suraj";
+console.log(typeof name); //string
+
+// 2. Number
+
+let age = 18;
+console.log(typeof age);  //number
+
+// 3. BigInt
+
+let bigNumber = 12345678901234567890n;
+console.log(typeof bigNumber);  //bigint
+
+// 4. Boolean
+
+let isStudent = true;
+console.log(typeof isStudent); // boolean
+
+// 5. Undefined
+
+let city;
+console.log(typeof city) // undefined 
+
+// 6. Null
+
+let salary = null;
+console.log(typeof salary); // object
+
+// 7. Symbol
+
+let id = Symbol("id");
+console.log(typeof symbol); // symbol
+
 // question of javascript.
 // Qs1. Create a const object called “product” to store information shown in the picture.
 
